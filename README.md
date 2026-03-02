@@ -2,7 +2,7 @@
 
 Client/Server communication, survey analysis.
 
-Group 15:
+**Group 15:**
 
 Winona Chung (300298148)
 
