@@ -26,4 +26,5 @@ Rachel Olugbemiro (300302892)
 
 ## Other Notes:
 **Credits:**
+
 The code is based off the provided starter code from: https://github.com/carolinebarriere/carolinebarriere.github.io/tree/master/SEG3125-Module6-SurveyAnalysis
