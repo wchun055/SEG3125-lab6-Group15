@@ -10,7 +10,7 @@ John Vitor Lopes (300319245)
 
 Rachel Olugbemiro (300302892)
 
-## Setup:
+## Setup / Instructions:
 **Setting up dependencies:**
 1. Install npm. (https://www.npmjs.com/)
 2. Clone repository.
