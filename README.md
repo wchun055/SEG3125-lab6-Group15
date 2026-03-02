@@ -24,4 +24,6 @@ Rachel Olugbemiro (300302892)
 3. Access the survey (client) through: http://localhost:3000/niceSurvey
 4. Access the survey results (server) through: http://localhost:3000/analysis (Refresh for updates.)
 
+## Other Notes:
+**Credits:**
 The code is based off the provided starter code from: https://github.com/carolinebarriere/carolinebarriere.github.io/tree/master/SEG3125-Module6-SurveyAnalysis
