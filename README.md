@@ -22,6 +22,6 @@ Rachel Olugbemiro (300302892)
    ```node app.js```
 2. You should see in your console a log "listening port 3000".
 3. Access the survey (client) through: http://localhost:3000/niceSurvey
-4. Access the survery results (server) through: http://localhost:3000/analysis (Refresh for updates.)
+4. Access the survey results (server) through: http://localhost:3000/analysis (Refresh for updates.)
 
 The code is based off the provided starter code from: https://github.com/carolinebarriere/carolinebarriere.github.io/tree/master/SEG3125-Module6-SurveyAnalysis
