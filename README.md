@@ -15,16 +15,20 @@ Rachel Olugbemiro (300302892)
 1. Install npm. (https://www.npmjs.com/)
 2. Clone repository.
 3. Through the terminal, type:
+
    ```npm install```
 
 **Starting server:**
 1. In your clone repository (with npm installed), type:
+
    ```node app.js```
-2. You should see in your console a log "listening port 3000".
-3. Access the survey (client) through: http://localhost:3000/niceSurvey
-4. Access the survey results (server) through: http://localhost:3000/analysis (Refresh for updates.)
+3. You should see in your console a log "listening port 3000".
+4. Access the survey (client) through: http://localhost:3000/niceSurvey
+5. Access the survey results (server) through: http://localhost:3000/analysis (Refresh for updates.)
 
 ## Other Notes:
 **Credits:**
 
-The code is based off the provided starter code from: https://github.com/carolinebarriere/carolinebarriere.github.io/tree/master/SEG3125-Module6-SurveyAnalysis
+The code is based off the provided starter code from: 
+
+https://github.com/carolinebarriere/carolinebarriere.github.io/tree/master/SEG3125-Module6-SurveyAnalysis
