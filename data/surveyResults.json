@@ -1,14 +1,16 @@
 [
   {
-    "visits": "3",
-    "impressions": "neutral",
-    "browsers": "Google Chrome",
+    "name": "James",
+    "visits": "5",
+    "impressions": "like",
+    "browsers": "Opera",
     "devices": [
+      "Desktop",
       "Laptop",
       "Tablet",
       "Phone"
     ],
-    "changes": "I wish they had their coupons on the site. I would also like to be able to login so that I can get member exclusive deals.",
-    "comments": "I enjoyed this survey!"
+    "changes": "I would like a rewards program for exclusive members.",
+    "comments": "Love the site!"
   }
 ]

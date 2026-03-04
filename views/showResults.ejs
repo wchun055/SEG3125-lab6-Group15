@@ -5,23 +5,16 @@
 
 <body>
     <h1>Survey analysis</h1>
-    <h2>Colors</h2>
-    <ul>
-    <% for (var i=0; i<results[0].length; i++){ %>
-        <li><%= results[0][i].color %> :  <%= results[0][i].count %></li>
-    <% } %>    
-    </ul>
-    <h2>Fruits</h2>
-    <ul>
-    <% for (var i=0; i<results[1].length; i++){ %>
-        <li><%= results[1][i].fruit %> :  <%= results[1][i].count %></li>
-    <% } %>    
-    </ul>
-    <h2>Animals</h2>
-    <ul>
-    <% for (var i=0; i<results[2].length; i++){ %>
-        <li><%= results[2][i].animal %> :  <%= results[2][i].count %></li>
-    <% } %>    
-    </ul>
+
+    <% results.forEach(function(result) { %>
+        <p><%= result.name %></p>
+        <p>Visits: <%= result.visits %></p>
+        <p>Impressions: <%= result.impressions %></p>
+        <p>Browser: <%= result.browsers %></p>
+        <p>Devices: <%= result.devices %></p>
+        <p>Changes: <%= result.changes %></p>
+        <p>Comments: <%= result.comments %></p>
+    <% }); %>
+
 </body>
 </html>
