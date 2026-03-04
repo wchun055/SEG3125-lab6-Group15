@@ -49,16 +49,16 @@ module.exports = function(app){
         console.log([color, fruit, animal]);
     });
 
-    // when a user goes to localhost:3000/niceSurvey
+    // when a user goes to localhost:3000/survey
     // serve a static html (the survey itself to fill in)
-    app.get('/niceSurvey', function(req, res){
-        res.sendFile(__dirname+'/views/niceSurvey.html');
+    app.get('/survey', function(req, res){
+        res.sendFile(__dirname+'/views/survey.html');
     });
 
-    // when a user types SUBMIT in localhost:3000/niceSurvey 
+    // when a user types SUBMIT in localhost:3000/survey 
     // the action.js code will POST, and what is sent in the POST
     // will be recuperated here, parsed and used to update the data files
-    app.post('/niceSurvey', urlencodedParser, function(req, res){
+    app.post('/survey', urlencodedParser, function(req, res){
         console.log(req.body);
         var json = req.body;
         for (var key in json){
@@ -75,7 +75,7 @@ module.exports = function(app){
         }
         // mystery line... (if I take it out, the SUBMIT button does change)
         // if anyone can figure this out, let me know!
-        res.sendFile(__dirname + "/views/niceSurvey.html");
+        res.sendFile(__dirname + "/views/survey.html");
     });
     
 
