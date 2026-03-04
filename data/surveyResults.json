@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "visits": "3",
+    "impressions": "neutral",
+    "browsers": "Google Chrome",
+    "devices": [
+      "Laptop",
+      "Tablet",
+      "Phone"
+    ],
+    "changes": "I wish they had their coupons on the site. I would also like to be able to login so that I can get member exclusive deals.",
+    "comments": "I enjoyed this survey!"
+  }
+]
