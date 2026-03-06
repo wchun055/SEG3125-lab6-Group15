@@ -1,20 +1,35 @@
 <html lang="en-US">
 <head>
     <title>Survey Analysis</title>
+
+    <link rel="stylesheet" href="/assets/styles/form.css">
+    <link rel="stylesheet" href="/assets/styles/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 </head>
 
+<header class="text-center m-3">
+    <h1>Survey Analysis</h1>
+</header>
+
 <body>
-    <h1>Survey analysis</h1>
+    <div class="d-flex flex-wrap justify-content-center m-3">
+        <% results.forEach(function(result) { %>
+            <div class="card w-75 m-3">
+                <div class="card-body">
+                    <p>Name: <%= result.name %></p>
+                    <p>Visits: <%= result.visits %></p>
+                    <p>Impressions: <%= result.impressions %></p>
+                    <p>Browser: <%= result.browsers %></p>
+                    <p>Devices: <%= result.devices %></p>
+                    <p>Changes: <%= result.changes %></p>
+                    <p>Comments: <%= result.comments %></p> 
+                </div>
+            </div>
+        <% }); %>
+    </div>
 
-    <% results.forEach(function(result) { %>
-        <p><%= result.name %></p>
-        <p>Visits: <%= result.visits %></p>
-        <p>Impressions: <%= result.impressions %></p>
-        <p>Browser: <%= result.browsers %></p>
-        <p>Devices: <%= result.devices %></p>
-        <p>Changes: <%= result.changes %></p>
-        <p>Comments: <%= result.comments %></p>
-    <% }); %>
-
+    <script src="/assets/scripts/bootstrap.min.js"></script>
 </body>
 </html>
