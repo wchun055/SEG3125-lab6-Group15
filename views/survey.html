@@ -12,26 +12,26 @@
 </head>
 <body>
     <header class="d-flex justify-content-center m-3">
-        <h1>Taco Bell Website Design Survey</h1>
+        <h1 id="title">Taco Bell Website Design Survey</h1>
     </header>
 
     <!-- Step by step form is based off of the code from W3 schools. (Modified with Bootstrap.) -->
     <!-- https://www.w3schools.com/howto/howto_js_form_steps.asp? -->
     <div class="d-flex justify-content-center">
-        <form id="regForm" class="d-flex justify-content-center w-75 m-3">
+        <form class="form_info" class="d-flex justify-content-center w-75 m-3">
             <div class="tab text-center">
-                <p>This survey is based off of the <a href="https://www.tacobell.ca/">Taco Bell website</a>.</p>
-                <p>Example image of the website (click to access the site):</p>
+                <p class="form_info">This survey is based off of the <a href="https://www.tacobell.ca/">Taco Bell website</a>.</p>
+                <p class="form_info">Example image of the website (click to access the site):</p>
                 
                 <a href="https://www.tacobell.ca/">
                     <img src="assets/images/site_example.png" class="img-fluid w-50 border border-dark">
                 </a>
                 
-                <p>Begin the survey by clicking on Next.</p>
+                <p class="form_info">Begin the survey by clicking on Next.</p>
             </div>
 
             <div class="tab w-75 m-3">
-                <p class="lead">Please enter your name:</p>
+                <p id="lead" class="lead">Please enter your name:</p>
                 <div name="word" class="d-flex justify-content-center">
                     <input type="text" name="name">
                 </div>
@@ -39,16 +39,16 @@
             </div>
 
             <div class="tab w-75 m-3">
-                <p class="lead">Question 1:</p>
-                <p>How often do you visit this site in a month?</p>
+                <p id="lead" class="lead">Question 1:</p>
+                <p class="question">How often do you visit this site in a month?</p>
                 <div class="d-flex justify-content-center">
                     <input name="visits" class="w-25 align-self-center" type="number">
                 </div>
             </div>
 
             <div class="tab w-75 m-3">
-                <p class="lead">Question 2:</p>
-                <p>On first impressions, what is your opinion of the looks of this site?</p>
+                <p id="lead"class="lead">Question 2:</p>
+                <p class="question">On first impressions, what is your opinion of the looks of this site?</p>
                 <div class="inputListDiv">
                     <div class="form-check w-75 mt-3">
                         <input name="impressions" type="radio" class="form-check-input  border border-dark" id="radio1" name="radioButtons" value="like"></input>
@@ -68,8 +68,8 @@
             </div>
 
             <div class="tab w-75 m-3">
-                <p class="lead">Question 3:</p>
-                <p>What browser are you using to view this website?</p>
+                <p id="lead" class="lead">Question 3:</p>
+                <p class="question">What browser are you using to view this website?</p>
                 <div class="d-flex justify-content-center">
                     <select name="browsers" id="list_input">
                         <option value="Internet Explorer">Internet Explorer</option>
@@ -82,8 +82,8 @@
             </div>
 
             <div class="tab w-75 m-3">
-                <p class="lead">Question 4:</p>
-                <p>Which devices do you use?</p>
+                <p id="lead" class="lead">Question 4:</p>
+                <p class="question">Which devices do you use?</p>
                 <div class="form-check w-50 mt-3">
                     <input type="checkbox" name="devices" class="form-check-input border border-dark" id="check1" value="Desktop">
                     <label for="check1" class="form-check-label">Desktop</label>
@@ -116,16 +116,16 @@
             </div>
 
             <div class="tab w-75 m-3">
-                <p class="lead">Question 5:</p>
-                <p>Describe this website in one word:</p>
+                <p id="lead" class="lead">Question 5:</p>
+                <p class="question">Describe this website in one word:</p>
                 <div name="word" class="d-flex justify-content-center">
                     <input type="text">
                 </div>
             </div>
 
             <div class="tab w-75 m-3">
-                <p class="lead">Question 6:</p>
-                <p>What are some changes you would make to this website?</p>
+                <p id="lead"class="lead">Question 6:</p>
+                <p class="question">What are some changes you would make to this website?</p>
                 <textarea name="changes" class="w-100"></textarea>
             </div>
 
@@ -137,15 +137,15 @@
 
             <div class="tab w-75 m-3 text-center">
                 <p class="lead">You've reached the end of the survey!</p>
-                <button type="submit" class="btn btn-warning" id="bb">Submit</button>
+                <button type="submit" class="btn btn-warning submit_button" id="bb">Submit</button>
             </div>
         </form>
     </div>
 
     <div style="overflow:auto;">
         <div class="d-flex justify-content-center" id="buttonDiv">
-            <button class="w-25 m-3 lead btn border border-dark" type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
-            <button class="w-25 m-3 lead btn border border-dark" type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+            <button class="w-25 m-3 lead btn border border-dark navigation_buttons" type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+            <button class="w-25 m-3 lead btn border border-dark navigation_buttons" type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
         </div>
     </div>
 
