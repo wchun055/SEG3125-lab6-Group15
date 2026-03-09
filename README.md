@@ -11,6 +11,11 @@
 - Rachel Olugbemiro (300302892)
 
 ## Setup / Instructions:
+
+**Note:**
+
+- The video demonstrates how to start the server as well (from installation). Can be found in repository as: "SEG3125 Lab 6 - Group 15 VIDEO.zip".
+
 **Setting up dependencies:**
 1. Install npm. (https://www.npmjs.com/)
 2. Clone repository.
